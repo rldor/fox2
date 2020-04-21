@@ -1,14 +1,7 @@
-#def sh():
-#with open('bio.txt') as f:
-#    s1 = list(f)
+
 def cards(s):
     return s.split(';')
 
-#r = open('rules.txt', 'r')
-#rules_needed_to_red = r.readlines()
-#rules=''
-#for i in rules_needed_to_red:
-#    rules+=i
 
 m = ['PAIN(t)', 'ALLIGATOR', 'MIME', 'MIRROR']
 s_bio = 'Abiotic environment : Абиотическая среда;Species : Вид;Anthropogenic factor : Антропогенные факторы;Immunity : Иммунитет;Zygote : Зигота;Embryo : Зародыш;Differentiation : Дифференцировка;Cell : Клетка;Biological indicators : Биоиндикаторы;Biomass : Биомасса;Biosphere : Биосфера;Biocenosis : Биоценоз;Gamete : Гамета;Generative organs : Генеративные органы;Hybridization : Гибридизация;Metabolism : Обмен веществ;Organism : Организм;Organ : Орган;Fertilization : Оплодотворение;Population : Популяция;Selection : Селекция;Symbiosis : Симбиоз;Systematics : Систематика;Cytoplasm : Цитоплазма;Evolution : Эволюция;Unicellular : Одноклеточные;Chromosomes : Хромосомы'
