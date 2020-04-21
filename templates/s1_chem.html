@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="{{ url_for ('static', filename='css/reset.css')}}">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='css/style.css')}}"><!-- CSS reset -->
+    <!-- Resource style -->
+	<script src="{{ url_for ('static', filename='js/modernizr.js')}}"></script> <!-- Modernizr -->
+
+	<title>Fox says: {{ subb }}</title>
+</head>
+<body>
+    <section class="cd-section">
+        <div class="cd-modal-action">
+			<a href="#0" class="btn" data-type="modal-trigger">How to play?</a>
+			<span class="cd-modal-bg"></span>
+		</div>
+
+        <div class="cd-modal">
+			<div class="cd-modal-content">
+                <p><a href="/">Back to the Main Page</a></p>
+                <p> The Rules (ENG)</p>
+                <p>
+                    Players (3 and more people) are offered a html-page with 4 categories (Biology, Botany, Biochemistry and Chemistry), in which is the randomly given term (in the Chemistry category at the moment there are 2 levels of difficulty, so you can choose) of the selected category from our terms-data, AND also a random mode (see game modes), in which player must explain the term to others.
+                </p>
+                <p>
+                    Game Modes (4):<br>1) ALLIGATOR – you need to explain the term by other words (of the same language), without using the term and same-root or derivatives;<br>online-format: it’s enough to have microphones and audio ‘on’ for each player.<br>2) PAIN(t) – you need to draw the term without using the words and letters (if possible), without saying anything (you can draw diagrams, associations, anything that can somehow be connected);<br>additional equipment: drawing equipment or any graphics editor in your computer;<br>online format: you must use the screen demonstration mode and any graphic editor (e.g. paint) OR use the material equipment presented above and the camera.<br>3) MIME – you need to play the mime, so the term must be shown by gesticulating without saying anything, however, specific sounds can be made (not recommended);<br>online-format: you need a camera!<br>4) MIRROR – you just need to spell the term but from right to left. Not more than 3 times.<br>online-format: it’s enough to have microphones and audio ‘on’ for each player.
+                </p>
+                <p>With limited resources (or by optional), you can play in any one mode.</p>
+                <p>
+                    Each player in his turn opens any of the categories and in a certain way (mode) ‘explain’ his term so that other players can guess it. The gameplay takes place in a video chat.<br>Recommended apps such as Skype, Discord, Zoom, etc.
+                </p>
+                <hr>
+
+                <p> Правила Игры (РУС)</p>
+                <p>
+                    Участникам (от 3-х человек) предлагается сайт с 4 категориями (Биология, Ботаника, Биохимия и Химия), в которых при каждом обновлении рандомно выдается термин (в категории Химия на данный момент имеется сразу 2 уровня сложности, так что можно выбрать один из данных), соответствующий выбранной категории из заложенного при разработке общего набора терминов, а также – случайный режим (см. игровые режимы), в условиях которого необходимо объяснить термин другим игрокам.
+                </p>
+                <p>
+                    Игровые режимы. Всего 4 режима:<br>1) крокодил – необходимо объяснить термин через другие слова (этого же языка), при этом не используя однокоренные и производные;<br>в рамках онлайн-формата: достаточно иметь микрофоны и динамики каждому игроку.<br>2) pain(t) – термин необходимо донести графически, не используя слова буквы, а так же не произнося ничего вслух (можно рисовать схемы, ассоциации, все, что может как-то быть связано);<br>дополнительное оборудование: что-то на чем писать и чем;<br>в рамках онлайн-формата – необходимо использовать ИЛИ режим демонстрации экрана и любой графический редактор (например paint) ИЛИ использовать дополнительное оборудование представленное выше и камеру, однако рисовать нужно так, чтобы видно было всем игрокам.<br>3) мим – термин необходимо показать с помощью жестов. Ведущему говорить словами запрещено, однако при острой необходимости можно издавать специфичные звуки (не рекомендуется);<br>в рамках онлайн-формата: необходима камера.<br>4) зеркало – в данном режиме нужно просто прочитать термин по буквам справа налево. Не более 3 раз.<br>в рамках онлайн-формата: достаточно иметь микрофоны и динамики каждому игроку.
+                </p>
+                <p>При ограниченных ресурсах (или по желанию) можно играть в каком-то одном режиме.</p>
+                <p>
+                    Каждый участник в свой ход открывает любую из категорий и определенным образом в зависимости от режима представляет выпавший ему термин так, чтобы другие участники могли его угадать. Игровой процесс происходит в виде-очате, рекомендуются программы типа Skype, Discord, Zoom и т.д.
+                </p>
+
+			</div> <!-- cd-modal-content -->
+		</div>
+		<a href="#0" class="cd-modal-close">Close</a>
+	</section>
+    <header>
+		<h1>term (level - easy): {{ i1 }}</h1>
+        <h1>mode: {{ j }}</h1>
+        <h1>term (level - hard): {{ i2 }}</h1>
+	</header>
+<!-- .cd-section -->
+
+
+
+<script src="{{ url_for ('static', filename='js/jquery-2.1.1.js')}}"></script>
+<script src="{{ url_for ('static', filename='js/velocity.min.js')}}"></script>
+<script src="{{ url_for ('static', filename='js/main.js')}}"></script> <!-- Resource jQuery -->
+</body>
+</html>

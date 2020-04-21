@@ -1,0 +1,30 @@
+The Rules (ENG)
+
+Players (3 and morepeople) are offered a html-page with 4 categories (Biology, Botany, Biochemistry and Chemistry), in which is the randomly given term (in the Chemistry category at the moment there are 2 levels of difficulty, so you can choose) of the selected category from our terms-data, AND also a random mode (see game modes), in which player must explain the term to others.
+
+Game Modes (4):
+
+1) crocodile – you need to explain the term by other words (of the same language), without using the term and same-root or derivatives; online-format: it’s enough to have microphones and audio ‘on’ for each player.
+2) pain(t) – you need to draw the term without using the words and letters (if possible), without saying anything (you can draw diagrams, associations, anything that can somehow be connected); additional equipment: drawing equipment or any graphics editor in your computer; online format: you must use the screen demonstration mode and any graphic editor (e.g. paint) OR use the material equipment presented above and the camera.
+3) mime – you need to play the mime, so the term must be shown by gesticulating without saying anything, however, specific sounds can be made (not recommended); online-format: you need a camera!
+4) mirror – you just need to spell the term but from right to left. Not more than 3 times. online-format: it’s enough to have microphones and audio ‘on’ for each player.
+
+With limited resources (or by optional), you can play in any one mode.
+
+Each player in his turn opens any of the categories and in a certain way (mode) ‘explain’ his term so that other players can guess it. The gameplay takes place in a video chat. Recommended apps such as Skype, Discord, Zoom, etc.
+
+
+Правила Игры (РУС)
+
+Участникам (от 3-х человек) предлагается сайт с 4 категориями (Биология, Ботаника, Биохимия и Химия), в которых при каждом обновлении рандомно выдается термин (в категории Химия на данный момент имеется сразу 2 уровня сложности, так что можно выбрать один из данных), соответствующий выбранной категории из заложенного при разработке общего набора терминов, а также – случайный режим (см. игровые режимы), в условиях которого необходимо объяснить термин другим игрокам.
+
+Игровые режимы. Всего 4 режима:
+
+1) крокодил – необходимо объяснить термин через другие слова (этого же языка), при этом не используя однокоренные и производные; в рамках онлайн-формата: достаточно иметь микрофоны и динамики каждому игроку.
+2) pain(t) – термин необходимо донести графически, не используя слова буквы, а так же не произнося ничего вслух (можно рисовать схемы, ассоциации, все, что может как-то быть связано); дополнительное оборудование: что-то на чем писать и чем; в рамках онлайн-формата – необходимо использовать ИЛИ режим демонстрации экрана и любой графический редактор (например paint) ИЛИ использовать дополнительное оборудование представленное выше и камеру, однако рисовать нужно так, чтобы видно было всем игрокам.
+3) мим – термин необходимо показать с помощью жестов. Ведущему говорить словами запрещено, однако при острой необходимости можно издавать специфичные звуки (не рекомендуется); в рамках онлайн-формата: необходима камера.
+4) зеркало – в данном режиме нужно просто прочитать термин по буквам справа налево. Не более 3 раз. в рамках онлайн-формата: достаточно иметь микрофоны и динамики каждому игроку.
+
+При ограниченных ресурсах (или по желанию) можно играть в каком-то одном режиме.
+
+Каждый участник в свой ход открывает любую из категорий и определенным образом в зависимости от режима представляет выпавший ему термин так, чтобы другие участники могли его угадать. Игровой процесс происходит в виде-очате, рекомендуются программы типа Skype, Discord, Zoom и т.д.
